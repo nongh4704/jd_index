@@ -349,8 +349,21 @@ dl.last-dl {
     padding: 10px 0;
 }
 
+.footer-bottom-img {
+    margin-top: 30px;
+}
+
 .footer-bottom-img a {
     margin: 0 5px;
+    background-image: url("../images/pics.png");
+    width: 103px;
+    height: 32px;
+    display: inline-block;
+    text-indent: -99999999px;
+}
+
+.footer-copyright a {
+    line-height: 22px
 }
 
 .footer-copyright i {
@@ -358,9 +371,37 @@ dl.last-dl {
     background-repeat: no-repeat;
     width: 15px;
     height: 10px;
+    margin-right: 8px;
+    display:inline-block
 }
 .i1{
-    height: 12px
+    height: 12px !important;
+    background-position: -108px -155px;
+}
+.i2 {
+    background-position: -168px -155px;
+}
+.i3 {
+    background-position: -148px -155px;
+}
+.i4 {
+    background-position: -128px -155px;
+}
+.i5 {
+    background-position: -108px -172px;
+}
+
+.footer-bottom-img-icon1 {
+    background-position: -205px -0px;
+}
+.footer-bottom-img-icon2 {
+    background-position: -205px -37px;
+}.footer-bottom-img-icon3 {
+    background-position: -205px -74px;
+}.footer-bottom-img-icon4 {
+    background-position: -205px -111px;
+}.footer-bottom-img-icon5 {
+    background-position: -205px -148px;
 }
 /*最底部end*/
 
