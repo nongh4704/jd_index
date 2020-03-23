@@ -74,7 +74,8 @@ s,i,em{font-style:normal;text-decoration:none;}  /*去掉i标签和em的斜体�
 .shortcut {
     height: 30px;
     line-height: 30px;
-    background-color: #f1f1f1;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
 }
 
 .dt,
@@ -404,5 +405,65 @@ dl.last-dl {
     background-position: -205px -148px;
 }
 /*最底部end*/
+
+/*shortcut-nav部分start*/
+.shortcut-nav {
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu {     /*撑开和撑破是两回事：撑开说明盒子变成那么大，撑破盒子还是那么大，子盒子很大。子盒子shortcut-nav-menu-one把父亲撑破了*/
+    width: 210px;
+    height: 44px;        /*浮动的盒子相互影响，不过是否在同一个盒子中*/
+    float: left;
+    position: relative;
+    z-index: 1;       /*通过z-index属性将层级放到最高*/
+}
+.shortcut-nav-menu-all a {
+    display: block;
+    width: 190px;
+    height: 44px;
+    color: white;
+    padding: 0 10px;
+    background-color: #B1191A;
+    font: 400 15px/44px "microsoft yahei";
+}
+.shortcut-nav-menu-one {
+    height: 465px;
+    margin-top: 2px;
+    background-color: #C81623;
+    border-left: 1px solid #B1191A;
+    border-bottom: 1px solid #B1191A;
+    /*border-left: 1px solid #000;*/
+    /*border-bottom: 1px solid #000;*/
+}
+.shortcut-nav-items {
+    width: 730px;
+    height: 44px;
+    float: left;
+}
+.shortcut-nav-items li {
+    float: left;
+}
+.shortcut-nav-items a {
+    display: inline-block;
+    height: 44px;
+    padding: 0 20px;
+    color: #333;
+    font: 400 16px/44px "microsoft yahei";
+}
+.shortcut-nav-items a:hover {
+    color: #C81623;
+}
+.shortcut-nav-img {
+    width: 200px;
+    height: 44px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+    /*position: relative;*/
+    /*left: -50px;*/
+    /*top: -10px;*/
+}
+/*shortcut-nav部分end*/
 
 
