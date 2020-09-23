@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/**多媒体标题**/
+figcaption {
+    text-align: center;
+    line-height: 150px;
+    font-family: "Microsoft Yahei";
+    font-size: 24px;
+}
+/*  播放器*/
+.player {
+    width: 720px;
+    height: 360px;
+    margin: 10px auto;
+    border: 1px solid #000;
+    background: #000;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.player video {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*控制条*/
+.controls {
+    width: 700px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,0,0.3);
+}
+
+/*开关*/
+.switch {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+/*进度条*/
+.progress {
+    width: 432px;
+    height: 10px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
+    overflow: hidden
+}
+
+.cur-progress {
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.time {
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 510px;
+    top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.extend {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
