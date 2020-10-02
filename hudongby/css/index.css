@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 59px;
+    background-color: #191d3a;
+}
+
+.header section {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.logo {
+    width: 225px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    text-indent: -999rem;
+}
+
+.logo a {
+    background: url("../images/logo.png") no-repeat;
+    width: 157px;
+    height: 35px;
+    display: block;
+}
+
+.nav {
+    float: left;
+    height: 58px;
+}
+
+.nav li {
+    float: left;
+    width: 85px;
+    border-left: 1px solid #252947;
+    border-right: 1px solid #252947;
+    text-align: center;
+    cursor: pointer;
+    margin-right: -1px;
+    color: #818496;
+}
+
+.nav li:last-child {
+    width: auto;
+}
+
+.nav li a {
+    text-align: center;
+    line-height: 58px;
+    font-size:  0.875rem;
+    font-family: "微软雅黑", "simhei";
+}
+
+.nav li:hover {
+    color: #e2e4ed;
+}
+
+.nav li a.button {
+    float: left;
+    width: 98px;
+    height: 32px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background-color: #38b774;
+    line-height: 32px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+}
+
+.header .lan {
+    float: right;
+}
+
+.header .lan a {
+    line-height: 58px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.header .lan a:hover {
+    color: #38b774;
+}
+
+.banner {
+    height: 460px;
+    background: url("../images/banner20200827.jpg") no-repeat center;
+}
+
+.indexpro {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+}
+
+.indexpro li {
+    float: left;
+    width: 218px;
+    height: 200px;
+    margin-right: 42px;
+}
+
+.indexpro li:last-child {
+    margin-right: 0;
+}
+
+.indexpro li img {
+    width: 218px;
+    height: 128px;
+}
+
+.indexpro li h5 {
+    line-height: 35px;
+    margin-bottom: 4px;
+}
+
+.indexpro li a {
+    display: block;
+    text-align: center;
+}
+
+.indexpro li span {
+    color: #38b774;
+    padding-right: 12px;
+    background: url("../images/arrow.png") no-repeat right center;
+    font-size: 0.8rem;
+}
