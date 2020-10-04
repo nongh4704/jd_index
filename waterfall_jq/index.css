@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+    margin-left: 10px;
+    position: relative;
+}
+
+#box li {
+    float: left;
+    padding-right: 10px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+#box li img {
+    width: 250px;
+}
