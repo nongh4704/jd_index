@@ -1,0 +1,32 @@
+.shark {
+    width: 509px;
+    height: 270px;
+    margin-top: 20px;
+    background: url("./shark.png") left top no-repeat;
+    animation: sharkrun 1s steps(8) infinite;
+}
+
+.sharkbox {
+    animation: sharkroad 10s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sharkrun {
+    0% {
+        
+    }
+
+    100% {
+        background-position: left -2160px;
+    }
+}
+
+@keyframes sharkroad {
+    0% {
+        transform: translate(-600px);
+    }
+
+    100% {
+        transform: translate(1000px);
+    }
+}
